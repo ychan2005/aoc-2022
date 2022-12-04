@@ -1,5 +1,3 @@
-
-
 def parse(data):
     f = open(data).read()
     return [line for line in f.splitlines()]
